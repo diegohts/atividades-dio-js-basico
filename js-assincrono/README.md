@@ -6,4 +6,4 @@
 
 <p align="center"> Foi criado uma página que ao clicarmos em um botão carrega fotos aleatórias de gatos.</p>
 
-<p align="center">A API utilizada `https://thatcopy.pw/catapi/rest` para fazer as chamadas com o método `fetch()`.</p>
+<p align="center">A API <a href="https://thatcopy.pw/catapi/rest"> https://thatcopy.pw/catapi/rest</a> foi utilizada para fazer as chamadas com o método <b>fetch().</b></p>
