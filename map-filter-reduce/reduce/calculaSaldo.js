@@ -15,7 +15,6 @@ lista = [
 
 saldo = 100;
 
-/*
 function calculaSaldo(saldo, lista) {
 	if (!saldo || !lista || !lista.length) return 'Envie todos os parâmetros';
 
@@ -23,19 +22,5 @@ function calculaSaldo(saldo, lista) {
 
 	return `O saldo final será de ${saldoFinal} reais`;
 }
-*/
-
-function calculaSaldo(saldo, lista) {
-	if (!saldo || !lista || !lista.length) return 'Envie todos os parâmetros';
-
-    const saldoFinal = lista.reduce(function(ant, item, indice){
-        console.log('rodada', indice + 1);
-        console.log({ ant });
-        console.log({ item });
-        return ant - item.preco;
-    }, saldo);
-
-    return `O saldo final será de ${saldoFinal} reais`;
-}   
 
 console.log(calculaSaldo(saldo, lista));
